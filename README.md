@@ -12,3 +12,26 @@ const MqttCache = require('mqtt-cache');
 let mqtt = MqttCache(Mqtt.connect(...));
 
 ```
+
+Complete source code.
+
+```javascript
+
+module.exports = function MqttCache(client) {
+
+    let publish = client.publish;
+    let cache = {};
+
+    client.publish = (topic, message, ...args) => {
+
+        if (cache[topic] == undefined || cache[topic] != message) {
+            cache[topic] = message;
+            return publish.call(client, topic, message, ...args);
+
+        }
+
+    }
+
+    return client;
+}
+```
