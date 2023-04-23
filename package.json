@@ -17,6 +17,15 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "mqtt",
+    "mqtt-async",
+    "async-mqtt",
+    "publish",
+    "subscribe",
+    "async",
+    "cache"
+  ],
   "bugs": {
     "url": "https://github.com/meg768/mqtt-cache/issues"
   },
