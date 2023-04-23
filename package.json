@@ -1,6 +1,6 @@
 {
   "name": "mqtt-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modifies the MQTT library not to send the same message twice.",
   "main": "mqtt-cache.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "npm-publish": "npm publish",
     "npm-version-patch": "npm version patch",
     "goto-github": "open https://github.com/meg768/mqtt-cache.git"
-
   },
   "repository": {
     "type": "git",
