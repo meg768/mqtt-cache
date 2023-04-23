@@ -8,7 +8,9 @@
     "git-commit": "git add -A && git commit -m '-' && git push",
     "git-revert": "git reset --hard HEAD",
     "npm-publish": "npm publish",
-    "npm-version-patch": "npm version patch"
+    "npm-version-patch": "npm version patch",
+    "goto-github": "open https://github.com/meg768/mqtt-cache.git"
+
   },
   "repository": {
     "type": "git",
