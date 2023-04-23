@@ -1,0 +1,21 @@
+{
+  "name": "mqtt-cache",
+  "version": "1.0.0",
+  "description": "Modifies the MQTT library not to send the same message twice.",
+  "main": "mqtt-cache.js",
+  "scripts": {
+    "git-pull": "git pull",
+    "git-commit": "git add -A && git commit -m '-' && git push",
+    "git-revert": "git reset --hard HEAD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meg768/mqtt-cache.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meg768/mqtt-cache/issues"
+  },
+  "homepage": "https://github.com/meg768/mqtt-cache#readme"
+}
