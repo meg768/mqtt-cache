@@ -7,13 +7,11 @@ module.exports = function MqttCache(client) {
 
         if (cache[topic] == undefined || cache[topic] != message) {
             cache[topic] = message;
-            console.log(`Publishing ${topic}:${message}`);
             return publish.call(client, topic, message, ...args);
 
         }
 
     }
-
 
     return client;
 }
