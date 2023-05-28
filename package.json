@@ -1,6 +1,6 @@
 {
   "name": "mqtt-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Modifies the MQTT library not to send the same message twice.",
   "main": "mqtt-cache.js",
   "scripts": {
